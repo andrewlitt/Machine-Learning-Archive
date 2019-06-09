@@ -1,0 +1,17 @@
+
+CMPE 452 Assignment 3: Implement a PCA Network
+Andrew Litt - 10150478
+
+The Initial Weights, Final Weights, and Learning Rate of the program can be seen in results.txt.
+
+Input/Output Nodes:
+As specified by the assignment, two input nodes were used to represend the sounds recorded by the two microphones in sound.csv. The single output represented one of the sound sources, as also specified by the assignment outline.
+
+Learning Rate:
+After continuous testing, it was found that a simple learning rate of c = 1 was effective for training, even after just one single iteration through the input dataset. Given the quality of the output .wav file, this was deemed effective.
+
+Initial Weights:
+The weights were initialized to random floats within the range of +-1 to start. After numerous iterations of the program, it was observed that the final weights consistently converge to the same pair of values in this range (around [0.67,-0.73]). Given this, the range of +-1 for initialization was held.
+
+Terminiation Criteria:
+While the program is able to do multiple iterations of training through the dataset (controlled by the epochs variable), it was observed that the amount of iterations has little effect on the performance of the network. The current output file is the result of training on a single loop through the dataset, and was deemed effective.

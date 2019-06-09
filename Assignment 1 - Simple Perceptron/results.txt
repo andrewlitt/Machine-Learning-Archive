@@ -1,0 +1,58 @@
+| Actual            | My Perceptron Guess | MATLAB Tool Guess       | 
+|-------------------|---------------------|-------------------------|
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|       Iris-setosa |         Iris-setosa |             Iris-setosa |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|   Iris-versicolor |      Iris-virginica |         Iris-versicolor |
+|   Iris-versicolor |     Iris-versicolor |         Iris-versicolor |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |     Iris-versicolor |          Iris-virginica |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |     Iris-versicolor |         Iris-versicolor |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |     Iris-versicolor |          Iris-virginica |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|    Iris-virginica |      Iris-virginica |          Iris-virginica |
+|-------------------|---------------------|-------------------------|
+
+Analysis of Implemented Perceptron
+
+SETOSA initial weight vector:    Wi= 4.90 4.57 -1.63 -3.45 -0.83
+SETOSA final weight vector:      Wf= 1.67 3.11 -3.90 -4.17 -0.49
+
+VIRGINICA initial weight vector: Wi= 0.44 -3.76 2.93 3.16 -0.02
+VIRGINICA final weight vector:   Wf= -5.64 -13.96 6.79 24.80 -0.00
+
+TOTAL classification error: E = 6
+
+SETOSA iterations:    2/1000 limit
+VIRGINICA iterations: 3000/3000 limit
+(If perceptron is below limit, it converged; else, it terminated with its final weight)
+
+SETOSA     Precision: 1.000, Recall: 1.000
+VERSICOLOR Precision: 0.750, Recall: 0.900
+VIRGINICA  Precision: 0.875, Recall: 0.700
+
+-----------------------------------------------
+Analysis of MATLAB Perceptron
+
+SETOSA Precision: 1.000, Recall: 1.000
+VERSICOLOR Precision: 1.000, Recall: 0.900
+VIRGINICA Precision: 0.909, Recall: 1.000
