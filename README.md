@@ -1,5 +1,5 @@
 # Machine-Learning-Archive
-Collection of assignments done at Queen's from CMPE 452: Neural Networks and Genetic Algorithms.
+Collection of assignments done in university for a Machine Learning course.
 
 Code written in MATLAB.
 
